@@ -1,6 +1,6 @@
 {
   "name": "自用图标资源库",
-  "description": "Auto-updated on 2026-02-22",
+  "description": "Auto-updated on 2026-03-02",
   "icons": [
     {
       "name": "1.1.1.1",
@@ -195,6 +195,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/Chrome.png"
     },
     {
+      "name": "Claude",
+      "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/Claude.png"
+    },
+    {
       "name": "Conflux",
       "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/Conflux.png"
     },
@@ -301,6 +305,10 @@
     {
       "name": "FnOS",
       "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/FnOS.png"
+    },
+    {
+      "name": "G.AI",
+      "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/G.AI.png"
     },
     {
       "name": "Game Controller",
@@ -861,6 +869,10 @@
     {
       "name": "VSCO",
       "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/VSCO.png"
+    },
+    {
+      "name": "Vibe Code",
+      "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/Vibe Code.png"
     },
     {
       "name": "VidHub",
