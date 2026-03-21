@@ -1,6 +1,6 @@
 {
   "name": "自用图标资源库",
-  "description": "Auto-updated on 2026-03-02",
+  "description": "Auto-updated on 2026-03-21",
   "icons": [
     {
       "name": "1.1.1.1",
@@ -317,10 +317,6 @@
     {
       "name": "G.AI",
       "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/G.AI.png"
-    },
-    {
-      "name": "Game Controller",
-      "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/Game Controller.png"
     },
     {
       "name": "Gemini",
