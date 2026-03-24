@@ -1,6 +1,6 @@
 {
   "name": "自用图标资源库",
-  "description": "Auto-updated on 2026-03-21",
+  "description": "Auto-updated on 2026-03-24",
   "icons": [
     {
       "name": "1.1.1.1",
@@ -575,6 +575,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/Mubu.png"
     },
     {
+      "name": "Music",
+      "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/Music.png"
+    },
+    {
       "name": "NSLookup",
       "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/NSLookup.png"
     },
@@ -925,6 +929,10 @@
     {
       "name": "Video Player",
       "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/Video Player.png"
+    },
+    {
+      "name": "VinylPod",
+      "url": "https://raw.githubusercontent.com/Keviin560/resources/main/icon/VinylPod.png"
     },
     {
       "name": "Wake Music",
