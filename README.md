@@ -2,8 +2,7 @@
 
 > Note: This is a personal asset repository for my configuration. Feel free to fork, but upstream changes may occur without notice.
 
-1024x1024 高清节点与策略组图标合集。
-源文件托管于 `src/` 目录，通过 GitHub Actions 自动构建索引分发。
+1024x1024 高清图标合集，源文件托管于 `src/` 目录，通过 GitHub Actions 自动构建索引分发。
 
 ## 核心链路与部署说明
 
@@ -18,6 +17,6 @@
 
 ```text
 .
-├── src/             # 图标源文件主位 (切勿存放非图像文件)
-├── icon.json        # CI 自动生成的标准 JSON 索引 (禁止人为覆盖)
+├── src/             # 图标源文件
+├── icon.json        # CI 自动生成的标准 JSON 索引
 └── .github/         # 自动化工作流脚本
