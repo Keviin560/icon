@@ -1,23 +1,23 @@
 # Personal Resources
 
-> ⚠️ Note: This is a personal asset repository for my configuration. Feel free to fork, but upstream changes may occur without notice.
+> Note: This is a personal asset repository for my configuration. Feel free to fork, but upstream changes may occur without notice.
 
-自用图标资源库，图标资源均为 `1024*1024` 尺寸！
-所有图标资源存储在 `icon/` 目录下，并通过 GitHub Actions 自动维护索引文件。
+1024x1024 高清节点与策略组图标合集。
+源文件托管于 `src/` 目录，通过 GitHub Actions 自动构建索引分发。
 
+## 核心链路与部署说明
 
-## 🛠 使用方法
-
-1.  将图标文件（`.png`）上传至 `icon/` 文件夹。
-2.  等待 GitHub Actions 自动运行（约 15 秒）。
-3.  使用以下链接获取订阅列表：
-    `https://raw.githubusercontent.com/<你的用户名>/resources/main/icon.json`
+1. 物理装载：将 `.png` 等支持的图像文件直接推入 `src/` 目录。
+2. 触发构建：监听 `src/**` 变动，GitHub Actions 将在短时间内重写根目录的 `icon.json`。
+3. 订阅配置：在代理客户端装载以下远程直链：
+   `https://raw.githubusercontent.com/<你的用户名>/icon/main/icon.json`
 
 ---
 
-### 📂 目录结构
+### 拓扑结构
+
 ```text
 .
-├── icon/            # 把图片放这里
-├── icon.json        # 自动生成的索引文件 (不要手动改)
-└── .github/         # 自动化脚本
+├── src/             # 图标源文件主位 (切勿存放非图像文件)
+├── icon.json        # CI 自动生成的标准 JSON 索引 (禁止人为覆盖)
+└── .github/         # 自动化工作流脚本
