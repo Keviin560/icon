@@ -1,4 +1,4 @@
-name: Update icon JSON
+name: Update Assets and README
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  update-json:
+  update-assets:
     runs-on: ubuntu-latest
     
     steps:
@@ -24,7 +24,7 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Generate JSON file
+    - name: Generate JSON and Inject README
       env:
         CURRENT_REPO: ${{ github.repository }} 
         CURRENT_BRANCH: ${{ github.ref_name }}
@@ -37,24 +37,24 @@ jobs:
         const branch = process.env.CURRENT_BRANCH;
         
         if (!repo || !branch) {
-          console.error("Error: Could not detect repository context.");
+          console.error("[Error] Could not detect repository context.");
           process.exit(1);
         }
 
         const rootDir = process.cwd();
         const srcDir = path.join(rootDir, 'src');
         const jsonPath = path.join(rootDir, 'icon.json');
+        const readmePath = path.join(rootDir, 'README.md');
 
         console.log(`[Info] Scanning: ${srcDir}`);
 
         try {
           if (!fs.existsSync(srcDir)) {
-             console.log("No src directory found.");
+             console.log("[Warn] No src directory found. Exiting cleanly.");
              process.exit(0);
           }
 
           const validExtensions = new Set(['.png', '.jpg', '.jpeg', '.svg', '.webp']);
-          
           const files = fs.readdirSync(srcDir)
             .filter(file => validExtensions.has(path.extname(file).toLowerCase()))
             .sort();
@@ -72,6 +72,13 @@ jobs:
 
           fs.writeFileSync(jsonPath, JSON.stringify(finalOutput, null, 2));
           console.log(`[Success] Generated JSON with ${iconsList.length} icons.`);
+
+          // 动态 README 注入逻辑
+          const rawSubscriptionUrl = `https://raw.githubusercontent.com/${repo}/${branch}/icon.json`;
+          const readmeContent = `# Personal Resources\n\n> ⚠️Note: This is a personal asset repository for my configuration. Feel free to fork, but upstream changes may occur without notice.\n\n1024x1024 高清图标合集，源文件托管于 \`src/\` 目录，通过 GitHub Actions 自动构建索引分发。\n\n## 项目说明\n\n1. 图片存放：将 \`.png\` 等支持的图像文件直接推入 \`src/\` 目录。\n2. 自动流程：监听 \`src/**\` 变动，GitHub Actions 将在短时间内重写根目录的 \`icon.json\` 和 \`README.md\`。\n3. 订阅配置：远程直链：\n   \`${rawSubscriptionUrl}\`\n\n---\n\n### 拓扑结构\n\n\`\`\`text\n.\n├── src/             # 图标源文件\n├── icon.json        # CI 自动生成的标准 JSON 索引\n└── .github/         # 自动化工作流脚本\n\`\`\`\n`;
+
+          fs.writeFileSync(readmePath, readmeContent);
+          console.log(`[Success] Overwrote README.md with dynamic URL: ${rawSubscriptionUrl}`);
         
         } catch (error) {
           console.error('[Error]', error.message);
@@ -84,10 +91,11 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         
-        if [[ -n $(git status --porcelain icon.json) ]]; then
-          git add icon.json
-          git commit -m "chore(auto): update icon.json format and metadata [skip ci]"
+        # 捕捉所有变更（包括 json 和 md）
+        if [[ -n $(git status --porcelain) ]]; then
+          git add icon.json README.md
+          git commit -m "chore(auto): build json and inject dynamic readme [skip ci]"
           git push
         else
-          echo "No changes detected."
+          echo "No changes detected in artifacts."
         fi
