@@ -8,7 +8,7 @@
 
 1. 图片存放：将 `.png` 等支持的图像文件直接推入 `src/` 目录。
 2. 自动流程：监听 `src/**` 变动，GitHub Actions 将在短时间内重写根目录的 `icon.json`。
-3. 订阅配置：在代理客户端装载以下远程直链：
+3. 订阅配置：远程直链：
    `https://raw.githubusercontent.com/<你的用户名>/icon/main/icon.json`
 
 ---
