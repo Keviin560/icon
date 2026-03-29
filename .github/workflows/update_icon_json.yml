@@ -75,7 +75,7 @@ jobs:
 
           // 动态 README 注入逻辑
           const rawSubscriptionUrl = `https://raw.githubusercontent.com/${repo}/${branch}/icon.json`;
-          const readmeContent = `# Personal Resources\n\n> ⚠️Note: This is a personal asset repository for my configuration. Feel free to fork, but upstream changes may occur without notice.\n\n1024x1024 高清图标合集，源文件托管于 \`src/\` 目录，通过 GitHub Actions 自动构建索引。\n\n## 项目说明\n\n1. 图片存放：把 \`.png\` 等图像文件存放在 \`src/\` 目录。\n2. 自动流程：监听 \`src/**\` 变动，GitHub Actions 变更根目录的 \`icon.json\` 和 \`README.md\`。\n3. 订阅链接：\n   \`${rawSubscriptionUrl}\`\n\n---\n\n### 拓扑结构\n\n\`\`\`text\n.\n├── src/             # 图标源文件\n├── icon.json        # CI 自动生成的标准 JSON 索引\n└── .github/         # 自动化工作流脚本\n\`\`\`\n`;
+          const readmeContent = `# Personal Resources\n\n> ⚠️Note: This is a personal asset repository for my configuration. Feel free to fork, but upstream changes may occur without notice.\n\n1024x1024 高清图标合集，源文件托管于 \`src/\` 目录，通过 GitHub Actions 自动构建索引。\n\n## 项目说明\n\n1. 图片存放： \`.png\` 等图片文件放在 \`src/\` 目录。\n2. 自动流程：监听 \`src/**\` 变动，GitHub Actions 变更根目录的 \`icon.json\`。\n3. 订阅链接：\n   \`${rawSubscriptionUrl}\`\n\n---\n\n### 拓扑结构\n\n\`\`\`text\n.\n├── src/             # 图标源文件\n├── icon.json        # CI 自动生成的标准 JSON 索引\n└── .github/         # 自动化工作流脚本\n\`\`\`\n`;
 
           fs.writeFileSync(readmePath, readmeContent);
           console.log(`[Success] Overwrote README.md with dynamic URL: ${rawSubscriptionUrl}`);
