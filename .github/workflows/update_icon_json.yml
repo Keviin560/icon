@@ -3,7 +3,7 @@ name: Update icon JSON
 on:
   push:
     paths:
-      - 'icon/**'
+      - 'src/**'
   workflow_dispatch:
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
       with:
         node-version: '20'
 
-    - name: Generate JSON file (Loon Compatible)
+    - name: Generate JSON file
       env:
         CURRENT_REPO: ${{ github.repository }} 
         CURRENT_BRANCH: ${{ github.ref_name }}
@@ -42,38 +42,36 @@ jobs:
         }
 
         const rootDir = process.cwd();
-        const iconDir = path.join(rootDir, 'icon');
+        const srcDir = path.join(rootDir, 'src');
         const jsonPath = path.join(rootDir, 'icon.json');
 
-        console.log(`[Info] Scanning: ${iconDir}`);
+        console.log(`[Info] Scanning: ${srcDir}`);
 
         try {
-          if (!fs.existsSync(iconDir)) {
-             console.log("No icon directory found.");
+          if (!fs.existsSync(srcDir)) {
+             console.log("No src directory found.");
              process.exit(0);
           }
 
           const validExtensions = new Set(['.png', '.jpg', '.jpeg', '.svg', '.webp']);
           
-          const files = fs.readdirSync(iconDir)
+          const files = fs.readdirSync(srcDir)
             .filter(file => validExtensions.has(path.extname(file).toLowerCase()))
             .sort();
 
-          // [核心修复 1] 构建 icons 数组，并移除文件后缀
           const iconsList = files.map(file => ({
-            name: path.parse(file).name, // 移除 .png, 变成纯文件名 "App"
-            url: `https://raw.githubusercontent.com/${repo}/${branch}/icon/${file}`
+            name: path.parse(file).name,
+            url: `https://raw.githubusercontent.com/${repo}/${branch}/src/${encodeURIComponent(file)}`
           }));
 
-          // [核心修复 2] 构建符合 Loon 标准的根对象结构
           const finalOutput = {
-            name: "自用图标资源库", // 集合显示名称
-            description: `Auto-updated on ${new Date().toISOString().split('T')[0]}`,
+            name: "自用图标集",
+            description: `日常搜集的 1024*1024 高清图标，最后更新: ${new Date().toISOString().split('T')[0]}`,
             icons: iconsList
           };
 
           fs.writeFileSync(jsonPath, JSON.stringify(finalOutput, null, 2));
-          console.log(`[Success] Generated Loon-compatible JSON with ${iconsList.length} icons.`);
+          console.log(`[Success] Generated JSON with ${iconsList.length} icons.`);
         
         } catch (error) {
           console.error('[Error]', error.message);
@@ -88,7 +86,7 @@ jobs:
         
         if [[ -n $(git status --porcelain icon.json) ]]; then
           git add icon.json
-          git commit -m "chore(auto): update icon.json format for Loon [skip ci]"
+          git commit -m "chore(auto): update icon.json format and metadata [skip ci]"
           git push
         else
           echo "No changes detected."
