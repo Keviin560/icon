@@ -1,6 +1,6 @@
 {
   "name": "自用图标集",
-  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-03-29",
+  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-03-30",
   "icons": [
     {
       "name": "1.1.1.1",
@@ -1441,10 +1441,6 @@
     {
       "name": "The Paper",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/The%20Paper.png"
-    },
-    {
-      "name": "Threads",
-      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Threads.png"
     },
     {
       "name": "Three",
