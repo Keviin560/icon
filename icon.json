@@ -115,6 +115,30 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/App%20Store%20Connect.png"
     },
     {
+      "name": "App Store",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/App%20Store.png"
+    },
+    {
+      "name": "Apple Health",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Apple%20Health.png"
+    },
+    {
+      "name": "Apple Music",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Apple%20Music.png"
+    },
+    {
+      "name": "Apple News",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Apple%20News.png"
+    },
+    {
+      "name": "Apple Notes",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Apple%20Notes.png"
+    },
+    {
+      "name": "Apple Store",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Apple%20Store.png"
+    },
+    {
       "name": "Apple",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Apple.png"
     },
@@ -253,6 +277,14 @@
     {
       "name": "Channel Hub",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Channel%20Hub.png"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/ChatGPT.png"
+    },
+    {
+      "name": "ChatGPT_2",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/ChatGPT_2.png"
     },
     {
       "name": "Chrome",
@@ -619,6 +651,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Home%20Assistant.png"
     },
     {
+      "name": "Hub",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Hub.png"
+    },
+    {
       "name": "Hulu",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Hulu.png"
     },
@@ -653,6 +689,10 @@
     {
       "name": "InsTrack",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/InsTrack.png"
+    },
+    {
+      "name": "Intelligence",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Intelligence.png"
     },
     {
       "name": "Intune",
@@ -725,6 +765,10 @@
     {
       "name": "Lazyaudio",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Lazyaudio.png"
+    },
+    {
+      "name": "Learn Intelligence",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Learn%20Intelligence.png"
     },
     {
       "name": "Lens",
@@ -1099,6 +1143,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Plex.png"
     },
     {
+      "name": "Podcasts",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Podcasts.png"
+    },
+    {
       "name": "Poizon",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Poizon.png"
     },
@@ -1281,6 +1329,10 @@
     {
       "name": "SignNow",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/SignNow.png"
+    },
+    {
+      "name": "Siri",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Siri.png"
     },
     {
       "name": "Snapchat",
