@@ -1,6 +1,6 @@
 {
   "name": "自用图标集",
-  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-03-30",
+  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-03-31",
   "icons": [
     {
       "name": "1.1.1.1",
@@ -253,10 +253,6 @@
     {
       "name": "Channel Hub",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Channel%20Hub.png"
-    },
-    {
-      "name": "ChatGPT",
-      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/ChatGPT.png"
     },
     {
       "name": "Chrome",
