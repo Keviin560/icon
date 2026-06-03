@@ -251,8 +251,24 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Bybit.png"
     },
     {
+      "name": "CBN",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/CBN.png"
+    },
+    {
       "name": "CHN",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/CHN.png"
+    },
+    {
+      "name": "CMCC",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/CMCC.png"
+    },
+    {
+      "name": "CTCC",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/CTCC.png"
+    },
+    {
+      "name": "CUCC",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/CUCC.png"
     },
     {
       "name": "Ca",
@@ -457,6 +473,10 @@
     {
       "name": "Fanqie Novel",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Fanqie%20Novel.png"
+    },
+    {
+      "name": "File Sender for Kindle",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/File%20Sender%20for%20Kindle.png"
     },
     {
       "name": "Filebar",
@@ -741,6 +761,10 @@
     {
       "name": "Knowledge Planet",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Knowledge%20Planet.png"
+    },
+    {
+      "name": "Koodo Reader",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Koodo%20Reader.png"
     },
     {
       "name": "KuGou",
@@ -1195,6 +1219,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Ps.png"
     },
     {
+      "name": "Push to Kindle",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Push%20to%20Kindle.png"
+    },
+    {
       "name": "QQ Reading",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/QQ%20Reading.png"
     },
@@ -1249,6 +1277,10 @@
     {
       "name": "ReadIt",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/ReadIt.png"
+    },
+    {
+      "name": "Readict",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Readict.png"
     },
     {
       "name": "Reading Tracker",
