@@ -503,6 +503,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/GitHub.png"
     },
     {
+      "name": "Gmail",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Gmail.png"
+    },
+    {
       "name": "Goodnotes",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Goodnotes.png"
     },
@@ -1841,6 +1845,10 @@
     {
       "name": "uBlock Origin Lite",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/uBlock%20Origin%20Lite.png"
+    },
+    {
+      "name": "v2ex",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/v2ex.png"
     }
   ]
 }
