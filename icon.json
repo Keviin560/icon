@@ -1,6 +1,6 @@
 {
   "name": "自用图标集",
-  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-06-13",
+  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-06-15",
   "icons": [
     {
       "name": "1.1.1.1",
@@ -1877,10 +1877,6 @@
     {
       "name": "ima",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/ima.png"
-    },
-    {
-      "name": "instagram",
-      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/instagram.jpg"
     },
     {
       "name": "uBlock Origin Lite",
