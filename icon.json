@@ -331,6 +331,14 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Clipchamp.png"
     },
     {
+      "name": "Cloudflare One Agent",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Cloudflare%20One%20Agent.png"
+    },
+    {
+      "name": "Cloudflare Remote",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Cloudflare%20Remote.png"
+    },
+    {
       "name": "Coinbase",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Coinbase.png"
     },
@@ -463,6 +471,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Express%20100.png"
     },
     {
+      "name": "F1 TV",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/F1%20TV.png"
+    },
+    {
       "name": "Fable Track",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Fable%20Track.png"
     },
@@ -523,8 +535,20 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Gemini.png"
     },
     {
+      "name": "Git+ for GitLab",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Git%2B%20for%20GitLab.png"
+    },
+    {
       "name": "GitHub",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/GitHub.png"
+    },
+    {
+      "name": "GitLab Events",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/GitLab%20Events.png"
+    },
+    {
+      "name": "GitViewer",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/GitViewer.png"
     },
     {
       "name": "Gmail",
@@ -905,6 +929,10 @@
     {
       "name": "Mapify",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Mapify.png"
+    },
+    {
+      "name": "Medium",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Medium.png"
     },
     {
       "name": "Meitu",
@@ -1407,6 +1435,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Soul.png"
     },
     {
+      "name": "Source Files",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Source%20Files.png"
+    },
+    {
       "name": "SpeedTest",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/SpeedTest.png"
     },
@@ -1455,6 +1487,10 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Streisand.png"
     },
     {
+      "name": "Substack",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Substack.png"
+    },
+    {
       "name": "SuperMind",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/SuperMind.png"
     },
@@ -1497,6 +1533,10 @@
     {
       "name": "TVBox",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/TVBox.png"
+    },
+    {
+      "name": "Tailscale",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Tailscale.png"
     },
     {
       "name": "Taobao",
