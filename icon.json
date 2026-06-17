@@ -1,6 +1,6 @@
 {
   "name": "自用图标集",
-  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-06-15",
+  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-06-17",
   "icons": [
     {
       "name": "1.1.1.1",
@@ -927,6 +927,14 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Meta%20Business%20Suite.png"
     },
     {
+      "name": "Mi Print",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Mi%20Print.png"
+    },
+    {
+      "name": "MiUi Huanj",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/MiUi%20Huanj.png"
+    },
+    {
       "name": "MiaoJian",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/MiaoJian.png"
     },
@@ -1795,6 +1803,14 @@
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Xiaomi%20Interconnectivity.png"
     },
     {
+      "name": "Xiaomi Mico",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Xiaomi%20Mico.png"
+    },
+    {
+      "name": "Xiaomi Wear Lite",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Xiaomi%20Wear%20Lite.png"
+    },
+    {
       "name": "Xiaoyuzhou FM",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Xiaoyuzhou%20FM.png"
     },
@@ -1845,6 +1861,10 @@
     {
       "name": "Yuni",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Yuni.png"
+    },
+    {
+      "name": "Zepp Life",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Zepp%20Life.png"
     },
     {
       "name": "Zeta Stitch",
