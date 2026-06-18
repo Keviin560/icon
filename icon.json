@@ -1,6 +1,6 @@
 {
   "name": "自用图标集",
-  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-06-17",
+  "description": "日常搜集的 1024*1024 高清图标，最后更新: 2026-06-18",
   "icons": [
     {
       "name": "1.1.1.1",
@@ -1145,6 +1145,10 @@
     {
       "name": "OneNote 2025",
       "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/OneNote%202025.png"
+    },
+    {
+      "name": "Orange Cloud",
+      "url": "https://raw.githubusercontent.com/Keviin560/icon/main/src/Orange%20Cloud.png"
     },
     {
       "name": "Outlook",
